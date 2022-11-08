@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-QA_Assignment" class="navigator-link">
+              <span class="suite-name border-passed">QA Assignment</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-QA_Assignment" class="navigator-link ">
+                    <span>C:\Users\admin\eclipse-workspace\Assignment\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-QA_Assignment" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-QA_Assignment" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-QA_Assignment" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-QA_Assignment" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-QA_Assignment" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-QA_Assignment" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QA_Assignment" class="hide-methods passed suite-QA_Assignment"> (hide)</a> <!-- hide-methods passed suite-QA_Assignment -->
+                      <a href="#" panel-name="suite-QA_Assignment" class="show-methods passed suite-QA_Assignment"> (show)</a> <!-- show-methods passed suite-QA_Assignment -->
+                    </span>
+                    <div class="method-list-content passed suite-QA_Assignment">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.ApproveTimePageTest" class="method navigator-link" hash-for-method="ApproveTime(Nowak, Peter, Nov 07 - Nov 13, 2022)">ApproveTime(Nowak, Peter, Nov 07 - Nov 13, 2022)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ClickOnApproveTimeTrackLink">ClickOnApproveTimeTrackLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ClickOnReportLink">ClickOnReportLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="ClickOnUsersLink">ClickOnUsersLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.ReportsPageTest" class="method navigator-link" hash-for-method="GenerateLeaveReport">GenerateLeaveReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.LoginPageTest" class="method navigator-link" hash-for-method="LoginPageTitleTest">LoginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.LoginPageTest" class="method navigator-link" hash-for-method="ValidateLoginTest">ValidateLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.HomePageTest" class="method navigator-link" hash-for-method="VerifyPageTitleTest">VerifyPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.ApproveTimePageTest" class="method navigator-link" hash-for-method="VerifyUserTitleLableTest">VerifyUserTitleLableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.ReportsPageTest" class="method navigator-link" hash-for-method="VerifyUserTitleLableTest">VerifyUserTitleLableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Assignment" title="com.qa.test.UsersPageTest" class="method navigator-link" hash-for-method="VerifyUserTitleLableTest">VerifyUserTitleLableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QA_Assignment -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QA_Assignment" class="panel QA_Assignment">
+          <div class="suite-QA_Assignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnApproveTimeTrackLink">
+                  </a> <!-- ClickOnApproveTimeTrackLink -->
+                  <span class="method-name">ClickOnApproveTimeTrackLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnReportLink">
+                  </a> <!-- ClickOnReportLink -->
+                  <span class="method-name">ClickOnReportLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnUsersLink">
+                  </a> <!-- ClickOnUsersLink -->
+                  <span class="method-name">ClickOnUsersLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPageTitleTest">
+                  </a> <!-- VerifyPageTitleTest -->
+                  <span class="method-name">VerifyPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Assignment-class-passed -->
+          <div class="suite-QA_Assignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.ApproveTimePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApproveTime(Nowak, Peter, Nov 07 - Nov 13, 2022)">
+                  </a> <!-- ApproveTime(Nowak, Peter, Nov 07 - Nov 13, 2022) -->
+                  <span class="method-name">ApproveTime</span>
+                  <span class="parameters">(Nowak, Peter, Nov 07 - Nov 13, 2022)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserTitleLableTest">
+                  </a> <!-- VerifyUserTitleLableTest -->
+                  <span class="method-name">VerifyUserTitleLableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Assignment-class-passed -->
+          <div class="suite-QA_Assignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.ReportsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GenerateLeaveReport">
+                  </a> <!-- GenerateLeaveReport -->
+                  <span class="method-name">GenerateLeaveReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserTitleLableTest">
+                  </a> <!-- VerifyUserTitleLableTest -->
+                  <span class="method-name">VerifyUserTitleLableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Assignment-class-passed -->
+          <div class="suite-QA_Assignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.UsersPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserTitleLableTest">
+                  </a> <!-- VerifyUserTitleLableTest -->
+                  <span class="method-name">VerifyUserTitleLableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Assignment-class-passed -->
+          <div class="suite-QA_Assignment-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTitleTest">
+                  </a> <!-- LoginPageTitleTest -->
+                  <span class="method-name">LoginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginTest">
+                  </a> <!-- ValidateLoginTest -->
+                  <span class="method-name">ValidateLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Assignment-class-passed -->
+        </div> <!-- panel QA_Assignment -->
+        <div panel-name="test-xml-QA_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace\Assignment\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;QA Assignment&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.extentreports.ExtentReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QA Assignment TestCases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.test.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.UsersPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.ApproveTimePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.ReportsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QA Assignment TestCases --&gt;
+&lt;/suite&gt; &lt;!-- QA Assignment --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QA_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QA Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">QA Assignment TestCases (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QA_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QA Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QA_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QA Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QA_Assignment');
+function tableData_QA_Assignment() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ClickOnReportLink')
+data.setCell(0, 2, 'com.qa.test.HomePageTest')
+data.setCell(0, 3, 15477);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ClickOnApproveTimeTrackLink')
+data.setCell(1, 2, 'com.qa.test.HomePageTest')
+data.setCell(1, 3, 13312);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickOnUsersLink')
+data.setCell(2, 2, 'com.qa.test.HomePageTest')
+data.setCell(2, 3, 7481);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ApproveTime')
+data.setCell(3, 2, 'com.qa.test.ApproveTimePageTest')
+data.setCell(3, 3, 1938);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GenerateLeaveReport')
+data.setCell(4, 2, 'com.qa.test.ReportsPageTest')
+data.setCell(4, 3, 1596);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateLoginTest')
+data.setCell(5, 2, 'com.qa.test.LoginPageTest')
+data.setCell(5, 3, 1012);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyUserTitleLableTest')
+data.setCell(6, 2, 'com.qa.test.UsersPageTest')
+data.setCell(6, 3, 346);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginPageTitleTest')
+data.setCell(7, 2, 'com.qa.test.LoginPageTest')
+data.setCell(7, 3, 77);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyUserTitleLableTest')
+data.setCell(8, 2, 'com.qa.test.ReportsPageTest')
+data.setCell(8, 3, 47);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyUserTitleLableTest')
+data.setCell(9, 2, 'com.qa.test.ApproveTimePageTest')
+data.setCell(9, 3, 29);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyPageTitleTest')
+data.setCell(10, 2, 'com.qa.test.HomePageTest')
+data.setCell(10, 3, 7);
+window.suiteTableData['QA_Assignment']= { tableData: data, tableDiv: 'times-div-QA_Assignment'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <div id="times-div-QA_Assignment">
+              </div> <!-- times-div-QA_Assignment -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QA_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QA Assignment</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QA_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QA_Assignment" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTitleTest</span>
+                <span class="method-start">35945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">36028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateLoginTest</span>
+                <span class="method-start">50909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">51922 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">55116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyPageTitleTest</span>
+                <span class="method-start">69473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">69483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">70913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnUsersLink</span>
+                <span class="method-start">83525 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">91007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">92802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnApproveTimeTrackLink</span>
+                <span class="method-start">105584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">118898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">120334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnReportLink</span>
+                <span class="method-start">136245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">151722 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.UsersPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">153095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserTitleLableTest</span>
+                <span class="method-start">182497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">182843 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.ApproveTimePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">184769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserTitleLableTest</span>
+                <span class="method-start">207038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">207068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">210076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ApproveTime(Nowak, Peter, Nov 07 - Nov 13, 2022)</span>
+                <span class="method-start">233855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">235795 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.ReportsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">237786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserTitleLableTest</span>
+                <span class="method-start">270291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">270339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">271756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GenerateLeaveReport</span>
+                <span class="method-start">304562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Dispose</span>
+                <span class="method-start">306159 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
